@@ -4,7 +4,9 @@ Config.DMVSchool = {
     vector3(240.7489, -1379.575, 33.74177)
 }
 
-Config.Language = "it"
+Config.Language = "de"
+
+Config.Interact = 'ox'
 
 Config.SpeedMultiplier = 3.6 -- 3.6 for kmh, 2.236936 for mph
 
@@ -23,7 +25,7 @@ Config.PuntiMinimi = 5 -- Minimum points to pass the theory test
 -- ATTENTION: Modifying the id after a user has already obtained a license causes them to be lost
 Config.License = {
     {
-        label = 'License A',
+        label = 'Motorradführerschein',
         id = 'drive_bike',
         img = 'bike.png',
         pricing = {
@@ -38,7 +40,7 @@ Config.License = {
         }
     },
     {
-        label = 'License B',
+        label = 'Autoführerschein',
         id = 'drive',
         img = 'car.png',
         pricing = {
@@ -53,7 +55,7 @@ Config.License = {
         }
     },
     {
-        label = 'License C',
+        label = 'LKW Führerschein',
         id = 'drive_truck',
         img = 'truck.png',
         pricing = {
@@ -478,6 +480,7 @@ Config.Lang = {
     ['it'] = {
         ['speed_error'] = "Vai troppo veloce, rallenta!",
         ['open_dmv'] = "Premi ~INPUT_CONTEXT~ per aprire la scuola guida",
+        ['target_open_dmv'] = "Open the DMV",
         ['dmv'] = "SCUOLA GUIDA",
         ['point'] = "PUNTEGGIO",
         ['error'] = "ERRORI",
@@ -496,6 +499,7 @@ Config.Lang = {
     ['en'] = {
         ['speed_error'] = "You are going too fast, slow down!",
         ['open_dmv'] = "Press ~INPUT_CONTEXT~ to open the DMV",
+        ['target_open_dmv'] = "Open the DMV",
         ['dmv'] = "DMV SCHOOL",
         ['point'] = "POINT",
         ['error'] = "ERROR",
